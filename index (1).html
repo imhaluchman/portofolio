@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My Portfolio</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="mediaqueries.css" />
+   </head>
+   <body class="background-container">
+      <!-- navbar desktop-->
+      <div class="background-container">
+         <nav id="desktop-nav">
+            <div class="logo">ILuchman.</div>
+            <div>
+               <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <!-- navbar mobile-->
+      <div class="background-container">
+         <nav id="hamburger-nav">
+            <div class="logo">ILuchman</div>
+            <div class="hamburger-menu">
+               <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </div>
+               <div class="menu-links">
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                  <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- profile -->
+      <div id="profile" class="other-background-container">
+         <div class="plain-background-container">
+         </div>
+         <section id="profile">
+            <div class="section__pic-container">
+               <!--<img src="./assets/profile-imha.jpeg" alt="John Doe profile picture" />-->
+            </div>
+            <div class="section__text">
+               <p class="section__text__p1">Hello, I'm</p>
+               <h1 class="title">Imha Luchman</h1>
+               <p class="section__text__p2">Developer</p>
+               <div class="btn-container">
+                  <button  class="btn btn-color-2" onclick="window.open('#')">
+                     <p> Download CV</p>
+                  </button>
+                  <button class="btn btn-color-2" onclick="location.href='https://wa.me/628382124729'">
+                     <p>
+                        Contact me
+                     </p>
+                  </button>
+               </div>
+               <div id="socials-container">
+                  <img
+                     src="./assets/linkedin.png"
+                     alt="My LinkedIn profile"
+                     class="icon"
+                     onclick="location.href='https://linkedin.com/'"
+                     />
+                  <img
+                     src="./assets/github.png"
+                     alt="My Github profile"
+                     class="icon"
+                     onclick="location.href='https://github.com/imhaluchman'"
+                     />
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- spacing -->
+      <div class="spacing-container">
+         <p> </p>
+      </div>
+      <!--about -->
+      <div id="about" class="plain-background-container">
+         <section id="about">
+            <h4 class="section__text__p1">
+            Get To Know More</4>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+               <div class="section__pic-container">
+                  <img class="profile-image" src="./assets/imha-square.jpeg" alt="Profile picture"/>
+               </div>
+               <div class="about-details-container">
+                  <div class="about-containers">
+                     <div class="text-container">
+                        <h1 id="about">
+                           Well Rounded Developer
+                        </h1>
+                        <h3 id="about">
+                           fluent in web, middleware, and databases. 
+                           I build robust solutions that meet evolving needs.
+                        </h3>
+                        <h3 id="about">
+                           leveraging expertise in webMethods, 
+                           SAP, Power Platform, and diverse languages.
+                        </h3>
+                        <div class="row-container">
+                           <div class="row-column">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                                       <h3 id="about-other">Education</h3>
+                                       <div>
+                                          <h4 id="about">Bachelors of Computer Science Graduate at Pembangunan Nasional Veteran Jakarta University</h4>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row-column">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                                       <h3 id="about-other">Experience</h3>
+                                       <div>
+                                          <h4 id="about">2+ Years of Experience as a Technical Consultant and developer in the Banking Industry</h4>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <div class="spacing-container">
+         <p> </p>
+      </div>
+      <!-- Experience -->
+      <div class="purple-background-container">
+         <section id="experience">
+            <h4 class="section__text__p1">
+               My Previous</4>
+               <h1 class="title">Experience</h1>
+               <div class="about-details-container">
+                  <div class="row-container">
+                     <div class="experience-section-container">
+                        <div class="row-column-experience">
+                           <div class="article-container">
+                              <div class="details-container color-container">
+                                 <div class="details-container">
+                                    <img src="./assets/danamon-logo.png" alt="Education icon" class="worklogo"/>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row-column-experience-details">
+                           <div class="article-container">
+                              <div class="details-container color-container">
+                                 <div class="details-container">
+                                    <h3 id="about-other">Middleware Developer</h3>
+                                    <div>
+                                       <h4 id="about">Developed and maintained webMethods Integration Server services at Bank Danamon, 
+                                          ensuring compliance with regulations and business needs. 
+                                          Troubleshooted and resolved system issues.</h4>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-container">
+                     <div class="row-container">
+                        <div class="experience-section-container">
+                           <div class="row-column-experience">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <img src="./assets/xl-logo.png" alt="Education icon" class="worklogo"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row-column-experience-details">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <h3 id="about-other">Mobile Developer</h3>
+                                       <div>
+                                          <h4 id="about">Developed Power Platform Applications at XL AXIATA TBK.
+                                              Utilized Power Apps, Power BI, and Power Automate to automate tasks, generate reports, and improve workflows.
+                                             Collaborated with stakeholders and optimized application performance.</h4>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row-container">
+                     <div class="row-container">
+                        <div class="experience-section-container">
+                           <div class="row-column-experience">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <img src="./assets/ids.png" alt="Education icon" class="worklogo"/>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row-column-experience-details">
+                              <div class="article-container">
+                                 <div class="details-container color-container">
+                                    <div class="details-container">
+                                       <h3 id="about-other">Technical Conusltant</h3>
+                                       <div>
+                                          <h4 id="about">Served as a Technical Consultant, leveraging XML, SOAP, JSON, Spring, Power Platform, Postman API, and webMethods to design and implement integrated solutions. 
+                                             Collaborated with clients and internal teams to optimize business processes.
+                                             </h4>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         </section>
+      </div>
+      <!--spacing-->
+      <div class="spacing-container">
+         <p> </p>
+      </div>
+      <!-- projects-->
+      <div id="projects" class="purple-background-container">
+         <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+               <div class="about-containers">
+                  <div class="details-container color-container2">
+                     <div class="article-container">
+                        <img
+                           src="./assets/project-1.png"
+                           alt="Project 1"
+                           class="project-img"
+                           />
+                     </div>
+                     <h2 class="experience-sub-title project-title">Project One</h2>
+                     <div class="btn-container">
+                        <button
+                           class="btn btn-color-2 project-btn"
+                           onclick="location.href='https://imhaluchman.github.io/'"
+                           >
+                        <P>Live Demo</P>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="details-container color-container2">
+                     <div class="article-container">
+                        <img
+                           src="./assets/project-2.png"
+                           alt="Project 2"
+                           class="project-img"
+                           />
+                     </div>
+                     <h2 class="experience-sub-title project-title">Project Two</h2>
+                     <div class="btn-container">
+                        <button
+                           class="btn btn-color-2 project-btn"
+                           onclick="location.href='https://imhaluchmangithub.io/'"
+                           >
+                           <P>Live Demo</P>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="details-container color-container2">
+                     <div class="article-container">
+                        <img
+                           src="./assets/project-3.png"
+                           alt="Project 3"
+                           class="project-img"
+                           />
+                     </div>
+                     <h2 class="experience-sub-title project-title">Project Three</h2>
+                     <div class="btn-container">
+                        <button
+                           class="btn btn-color-2 project-btn"
+                           onclick="location.href='https://imhaluchman.github.io/'"
+                           >
+                        <p>Live Demo</p>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+       <!--spacing-->
+      <div class="spacing-container">
+         <p> </p>
+      </div>
+      <!--footer-->
+      <div>
+         <footer>
+            <nav>
+               <div class="nav-links-container">
+                  <ul class="nav-links">
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#experience">Experience</a></li>
+                     <li><a href="#projects">Projects</a></li>
+                     <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </div>
+            </nav>
+            <p>Copyright &#169; 2024 Imha Luchman. All Rights Reserved.</p>
+         </footer>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>#ffffff
