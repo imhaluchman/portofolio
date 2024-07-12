@@ -461,19 +461,19 @@ footer p {
 }
 
 .other-background-container {
-  background-image: url("/assets/back-im7.JPEG");
+  background-image: URL("./assets/back-im7.JPEG");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .plain-background-container {
-  background-image: url("/assets/back-im6.jpeg");
+  background-image: URL("./assets/back-im6.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .purple-background-container {
-  background-image: url("/assets/back-im8.jpeg");
+  background-image: URL("./assets/back-im8.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
